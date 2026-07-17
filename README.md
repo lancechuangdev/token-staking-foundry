@@ -1,3 +1,7 @@
+An ERC20 staking system where users stake GopherToken and earn block-based rewards using MasterChef-style reward accounting.
+
+Instead of looping through all stakers, it stores one global reward index and one per-user debt value.
+
 ### Create project
 ```shell
 $ forge init token-staking-foundry
